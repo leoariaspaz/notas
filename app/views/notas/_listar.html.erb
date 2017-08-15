@@ -1,0 +1,34 @@
+<% if not @notas.empty? %>
+
+  <table class="table table-striped table-responsive">
+    <tbody>
+      <%= render partial: 'empty_row', locals: {datos: @notas, 
+        mensaje: 'Todavía no hay notas cargadas.', colspan: 4} %>
+
+      <% @notas.each do |nota| %>
+        <tr>
+          <td class="col-sm-11 titulo">
+            <%= link_to (nota) do %>
+              <span class="glyphicon glyphicon-th"></span>
+              <%= nota.titulo %>
+            <% end %>
+          </td>
+          <td class="col-sm-1">
+            <%= link_to edit_nota_path(nota) do %>
+              <span class="glyphicon glyphicon-edit"></span>
+            <% end %>
+            <%= link_to nota, method: :delete, data: { confirm: "¿Está seguro que desea eliminar la nota \n#{nota.titulo}?" } do %>
+              <span class="glyphicon glyphicon-trash"></span>
+            <% end %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+<% else %>
+
+  <div id="notas-empty" class="row">
+    <%= render partial: 'empty_row', locals: { datos: @notas, mensaje: 'Todavía no hay notas cargadas.' }%>
+  </div>
+<% end %>

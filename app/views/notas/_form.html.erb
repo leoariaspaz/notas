@@ -1,0 +1,23 @@
+<%= form_for(nota) do |f| %>
+  <%= render 'errores', partial: true, model: nota, model_name: 'La nota' %>
+
+  <div class="form_group">
+    <%= f.label :titulo %>
+    <%= f.text_field :titulo, class: 'form-control' %>
+  </div>
+
+  <div class="form_group">
+    <%= f.label :cuerpo %>
+    <%= f.text_area :cuerpo, rows: 20, class: 'form-control' %>
+  </div>
+
+  <div class="form_group">
+    <%= f.label :categoria_id %>
+    <%= f.select :categoria_id, @categorias, {prompt: true}, {class: 'form-control'} %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit class: 'btn btn-default', role: 'button'%>
+    <%= link_to 'Cancelar', notas_path, class: 'btn btn-default', role: 'button' %>
+  </div>
+<% end %>

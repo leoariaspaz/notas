@@ -1,0 +1,48 @@
+<h1 id="title">Notas</h1>
+
+<div id="header">
+  <%= render 'notice' %>
+
+  <div class="row">
+    <div class="btn-group col-sm-10">
+      <button type="button" class="btn btn-primary"><%= @categorias.first[0] %></button>
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span> 
+      </button>
+      <ul class="dropdown-menu" role="menu">
+      <% @categorias.each do |c| %>
+        <li>
+          <%= link_to action: "listar", id: c[1]  do %>
+            <%= c[0] %></a>
+          <% end %>
+        </li>
+      <% end %>
+      <li class="divider"></li>
+      <li><%= link_to "Ver todas", action: "listar", id: 0 %> </li>        
+      <li><%= link_to "Nueva categoría", new_categoria_path, remote: true %> </li>
+      </ul>
+    </div>
+
+    <div class="col-sm-2">
+      <%= link_to 'Nueva Nota', new_nota_path, class: 'btn btn-default', role: 'button' %>
+      <%#= link_to 'Nueva categoría', new_categoria_path, class: 'btn btn-default', role: 'button' %>
+      <%= link_to categorias_path, class: "btn btn-default", role: "button", title: "Configuración" do %>
+        <span class="glyphicon glyphicon-cog"></span>
+      <% end %>    
+    </div>  
+  </div>
+
+  <br>
+</div>
+
+<div id="content">
+  <div id="listar-notas">
+    <%= render partial: 'listar'  %>
+  </div>
+
+  <div>
+    <div class="panel panel-default" style="margin-top: 25px;">
+      <div id="detalle" class="panel-body"></div>    
+    </div>
+  </div>
+</div>

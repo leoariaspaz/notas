@@ -1,0 +1,53 @@
+<h1>Categorías</h1>
+
+<%= render 'notice' %>
+
+<%= render partial: 'empty_row', locals: { datos: @categorias, mensaje: 'Todavía no hay categorías cargadas.' } %>
+
+<div class="row">
+  <div class="col-sm-offset-9 col-sm-3">
+    <%= link_to 'Nueva Categoría', new_categoria_path, class: 'btn btn-default', role: 'button' %>
+    <%= link_to 'Ver notas', notas_path, class: 'btn btn-default', role: 'button' %>
+  </div>  
+</div>
+
+<% if not @categorias.empty? %>
+
+  <table class="table table-striped table-responsive">
+    <thead>
+      <tr>
+        <th>Descripción</th>
+        <th>Habilitada</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @categorias.each do |categoria| %>
+        <tr>
+          <td class="col-sm-6"><%= categoria.descripcion %></td>
+          <td class="col-sm-5">
+            <% if categoria.habilitado %>
+              <span class="glyphicon glyphicon-check"></span>          
+            <% else %>
+              <span class="glyphicon glyphicon-unchecked"></span>
+            <% end %>           
+          </td>
+          <td class="col-sm-1">
+            <%= link_to categoria do %>
+              <span class="glyphicon glyphicon-th"></span>          
+            <% end %>
+            <%= link_to edit_categoria_path(categoria) do %>
+              <span class="glyphicon glyphicon-edit"></span>
+            <% end %>
+            <%= link_to categoria, method: :delete, data: { confirm: 'Are you sure?' } do %>
+              <span class="glyphicon glyphicon-trash"></span>
+            <% end %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+<% end %>
+
