@@ -1,0 +1,633 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"to",
+				"to_sym"
+			],
+			[
+				"do",
+				"dob\tInsert do |variable| … end"
+			],
+			[
+				"test",
+				"test_helper"
+			],
+			[
+				"res",
+				"rest\trespond_to"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"asser",
+				"assert_equal"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1724,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 172.0,
+		"last_filter": "format",
+		"selected_items":
+		[
+			[
+				"format",
+				"Format CSS: Expanded (Break Selectors)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git his",
+				"Git: Diff Current File (Ignore Whitespace)"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/media/leonardo/Programación/Ruby/Proyectos/notas"
+	],
+	"file_history":
+	[
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/database.yml",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/_gitignore",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/pgstart.sh",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas2/notas/app/assets/javascripts/notas.coffee",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas2/notas/app/views/notas/index.html.erb",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas2/notas/vendor/assets/stylesheets/jquery.splitter.css",
+		"/home/leonardo/Documentos/ruby/scripts/change_background.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/bin/rails",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/bin/spring",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/Gemfile",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/db/migrate/20161116234654_add_categoria_ref_to_hojas.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/db/migrate/20161031224728_create_hojas.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/db/migrate/20161116231415_create_categorias.rb",
+		"/home/leonardo/Escritorio/Windows7.desktop",
+		"/home/leonardo/Documentos/scripts/windows7.sh",
+		"/home/leonardo/Escritorio/Windows 7.desktop",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/db/schema.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/db/migrate/20161029201809_create_hojas.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/config/application.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/config/database.yml",
+		"/media/leonardo/Programación/Ruby/Proyectos/notas/Rakefile",
+		"/media/leonardo/Programación/Ruby/Proyectos/Notas/db/migrate/20121019003011_create_agendas.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/Plantillas/app/models/plantilla.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/Plantillas/app/assets/stylesheets/application.css",
+		"/media/leonardo/Programación/Recursos web/Diseño base/styles.css",
+		"/media/leonardo/Programación/Ruby/Proyectos/Plantillas/app/views/layouts/application.html.erb",
+		"/media/leonardo/Programación/Recursos web/Diseño base/page.html",
+		"/media/leonardo/Programación/Ruby/Proyectos/Plantillas/app/controllers/plantillas_controller.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/Plantillas/app/assets/stylesheets/default.css",
+		"/media/leonardo/Programación/Ruby/Proyectos/Plantillas/app/assets/stylesheets/scaffolds.scss",
+		"/media/leonardo/Programación/Ruby/Proyectos/Plantillas/Gemfile",
+		"/media/leonardo/Programación/Ruby/Proyectos/Plantillas/db/migrate/20160512020338_create_plantillas.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/Plantillas/config/environment.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/Plantillas/config/initializers/I18n.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/plantillas/db/migrate/20160512020338_create_plantillas.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/plantillas/app/views/plantillas/_form.html.erb",
+		"/media/leonardo/Programación/Ruby/Proyectos/plantillas/app/controllers/plantillas_controller.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/plantillas/app/models/plantilla.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/plantillas/app/views/plantillas/index.html.erb",
+		"/media/leonardo/Programación/Ruby/Proyectos/plantillas/app/models/grupo.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/plantillas/app/helpers/application_helper.rb",
+		"/home/leonardo/Documentos/rails/remisctrl/app/views/choferes/_detail_select.html.erb",
+		"/home/leonardo/Documentos/rails/remisctrl/Gemfile",
+		"/media/leonardo/Programación/Ruby/Proyectos/plantillas/Gemfile",
+		"/media/leonardo/Programación/Ruby/Proyectos/plantillas/config/locales/es-AR.yml",
+		"/media/leonardo/Programación/Ruby/Proyectos/plantillas/config/initializers/I18n.rb",
+		"/media/leonardo/Programación/Ruby/Proyectos/plantillas/config/initializers/inflections.rb",
+		"/home/leonardo/Documentos/rails/remisctrl/config/locales/es-AR.yml",
+		"/home/leonardo/Documentos/rails/remisctrl/config/initializers/I18n.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/models/order.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/assets/stylesheets/application.css",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/views/layouts/application.html.erb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/config/routes.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/config/initializers/i18n.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/controllers/application_controller.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/views/store/index.html.erb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/views/orders/_form.html.erb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/views/orders/new.html.erb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/controllers/store_controller.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/controllers/orders_controller.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/config/locales/es.yml",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/models/pay_type.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/config/locales/en.yml",
+		"/media/leonardo/Programación/Ruby/Programas/depot/config/application.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/config/environment.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/views/carts/_cart.html.erb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/Gemfile",
+		"/media/leonardo/Programación/Ruby/Programas/depot/config/environments/development.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/config/initializers/locales/en.yml",
+		"/media/leonardo/Programación/Ruby/Programas/depot/config/locales/locales/en.yml",
+		"/media/leonardo/Programación/Ruby/Programas/depot/config/initializers/locales/es.yml",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/views/admin/index.html.erb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/test/controllers/sessions_controller_test.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/test/test_helper.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/controllers/line_items_controller.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/controllers/carts_controller.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/controllers/sessions_controller.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/test/controllers/users_controller_test.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/views/users/index.html.erb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/controllers/users_controller.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/models/user.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/test/fixtures/users.yml",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/controllers/admin_controller.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/views/sessions/new.html.erb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/views/users/_form.html.erb",
+		"/home/leonardo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/leonardo/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/media/leonardo/Programación/Ruby/Programas/depot/test/integration/user_stories_test.rb",
+		"/media/leonardo/Programación/Ruby/Programas/depot/Rakefile",
+		"/home/leonardo/.config/sublime-text-3/Packages/User/coffeescript.py",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/assets/javascripts/store.coffee",
+		"/home/leonardo/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/media/leonardo/Programación/Ruby/Programas/depot/app/assets/javascripts/application.js",
+		"/home/leonardo/Documentos/scripts/Windows 7/windows7.sh",
+		"/home/leonardo/Documentos/scripts/change_background.sh"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bottom",
+			"header",
+			"sh",
+			"notas_dev",
+			"bundle",
+			"def render_error",
+			"render_error",
+			"Estado",
+			"estado",
+			"estados_validos",
+			"yesilucas",
+			"pablorlucatelli",
+			"available_locales",
+			"locale",
+			"local",
+			"password",
+			"Password",
+			"password",
+			"assert_equal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/media/leonardo/Programación/Ruby/Proyectos/notas"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"syntax": "Packages/Rails/Ruby on Rails.sublime-syntax"
+						},
+						"translation.x": -0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"config/data",
+				"config/database.yml"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"split",
+				"vendor/assets/stylesheets/jquery.splitter.css"
+			],
+			[
+				"notcoff",
+				"app/assets/javascripts/notas.coffee"
+			],
+			[
+				"not/idx",
+				"app/views/notas/index.html.erb"
+			],
+			[
+				"bin/rails",
+				"bin/rails"
+			],
+			[
+				"rake",
+				"Rakefile"
+			],
+			[
+				"apprb",
+				"config/application.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"scaffol",
+				"app/assets/stylesheets/scaffolds.scss"
+			],
+			[
+				"layout",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"plcont",
+				"app/controllers/plantillas_controller.rb"
+			],
+			[
+				"modp",
+				"app/models/plantilla.rb"
+			],
+			[
+				"es.yml",
+				"config/locales/es-AR.yml"
+			],
+			[
+				"modplan",
+				"app/models/plantilla.rb"
+			],
+			[
+				"plantihtml",
+				"app/views/plantillas/index.html.erb"
+			],
+			[
+				"contplan",
+				"app/controllers/plantillas_controller.rb"
+			],
+			[
+				"apphe",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"viewplan",
+				"app/views/plantillas/_form.html.erb"
+			],
+			[
+				"migpla",
+				"db/migrate/20160512020338_create_plantillas.rb"
+			],
+			[
+				"modpla",
+				"app/models/plantilla.rb"
+			],
+			[
+				"infle",
+				"config/initializers/inflections.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"modgrup",
+				"app/models/grupo.rb"
+			],
+			[
+				"payty",
+				"app/models/pay_type.rb"
+			],
+			[
+				"order.rb",
+				"app/models/order.rb"
+			],
+			[
+				"app.css",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"apperb",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"stcontr",
+				"app/controllers/store_controller.rb"
+			],
+			[
+				"ordcont",
+				"app/controllers/orders_controller.rb"
+			],
+			[
+				"ordform",
+				"app/views/orders/_form.html.erb"
+			],
+			[
+				"vordnew",
+				"app/views/orders/new.html.erb"
+			],
+			[
+				"i18",
+				"config/initializers/i18n.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"envdeev",
+				"config/environments/development.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"es.y",
+				"config/locales/es.yml"
+			],
+			[
+				"en.y",
+				"config/locales/en.yml"
+			],
+			[
+				"_cart",
+				"app/views/carts/_cart.html.erb"
+			],
+			[
+				"stindexerb",
+				"app/views/store/index.html.erb"
+			],
+			[
+				"idxerb",
+				"app/views/admin/index.html.erb"
+			],
+			[
+				"appcont",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"i1",
+				"config/initializers/i18n.rb"
+			],
+			[
+				"userinde",
+				"app/views/users/index.html.erb"
+			],
+			[
+				"idxhtmlerb",
+				"app/views/users/index.html.erb"
+			],
+			[
+				"userscon",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"apphtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"testhelp",
+				"test/test_helper.rb"
+			],
+			[
+				"orcont",
+				"app/controllers/orders_controller.rb"
+			],
+			[
+				"licont",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"carcotn",
+				"app/controllers/carts_controller.rb"
+			],
+			[
+				"sesscont",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"useryml",
+				"test/fixtures/users.yml"
+			],
+			[
+				"sesstest",
+				"test/controllers/sessions_controller_test.rb"
+			],
+			[
+				"admcontr",
+				"app/controllers/admin_controller.rb"
+			],
+			[
+				"admininde",
+				"app/views/admin/index.html.erb"
+			],
+			[
+				"newhtml",
+				"app/views/sessions/new.html.erb"
+			],
+			[
+				"sesscontr",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"usrcontr",
+				"test/controllers/users_controller_test.rb"
+			],
+			[
+				"_form",
+				"app/views/users/_form.html.erb"
+			],
+			[
+				"usrcont",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"userst",
+				"test/integration/user_stories_test.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
